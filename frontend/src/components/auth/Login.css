@@ -1,0 +1,40 @@
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-top: -40px;
+  margin-bottom: -40px;
+}
+
+.login-container {
+  text-align: center;
+}
+
+.login-container img{
+   width : 250px;
+   height : 250px;
+ margin-top: -80px;
+}
+
+.login-box {
+   background-color: #ffffff;
+   border: 0.1px solid #2a3039;
+   padding: 2rem;
+   border-radius: 0.5rem;
+   width: 400px;
+   margin: 0 auto; 
+   text-align: center;
+}
+
+.login-checkbox {
+   display: flex;
+   
+}
+
+@media (max-width: 780px) {
+ .login-box {
+  width: 80%; 
+  margin: 0 auto; 
+}
+} 
