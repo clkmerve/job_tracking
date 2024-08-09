@@ -1,0 +1,92 @@
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
+}
+
+.top-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+
+.title-container {
+    max-width: 100%;
+    margin-bottom: 30px;
+    margin-top: -30px;
+}
+
+.title-container h1 {
+    font-size: 30px; 
+    color: #343434; 
+    line-height: 1.4; 
+    font-weight: bold; 
+    margin: 0 auto; 
+}
+
+.content-container {
+    max-width: 900px; 
+    background-color: rgba(255, 255, 255, 0.9); 
+    width: 100%;
+    padding: 40px;
+    border-radius: 12px; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); 
+    margin-bottom: 40px;
+    text-align: left; 
+}
+
+
+.content-container h2.numbered {
+    font-size: 1.6rem; 
+    color: #333;
+    margin-bottom: 15px;
+    font-weight: bold; 
+}
+
+.content {
+    font-size: 1.1rem; 
+    color: #666; 
+    line-height: 1.7;
+}
+
+.numbered-section {
+    counter-reset: section;
+}
+
+h2.numbered::before {
+    content: counter(section);
+    counter-increment: section;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+    background-color: #294385;
+    color: #fff; 
+    border-radius: 50%; 
+    text-align: center;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+/* Responsive ayarlar */
+@media (max-width: 780px) {
+    .about-container {
+        padding: 20px;
+    }
+
+    .title-container, .content-container {
+        width: 90%;
+        padding: 20px; 
+    }
+
+    .top-section {
+        flex-direction: column;
+    }
+}

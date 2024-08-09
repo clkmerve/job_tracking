@@ -1,0 +1,17 @@
+.custom-form-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  
+  .custom-form-item .ant-form-item-label {
+    flex: 0 0 100px; 
+    text-align: right; 
+    width: 250px;
+  }
+  
+  .custom-form-item .ant-form-item-control {
+    flex: 1;
+    margin-left: 16px; 
+  }
+  
