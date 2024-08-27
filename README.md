@@ -26,7 +26,8 @@ Bu proje, **Sunny Teknoloji Ar&Ge Merkezi** için geliştirilmiş bir **İş Tak
 
 - **Çalışma Süresi Takibi:** Projelerdeki kullanıcılara ait aylık çalışma sürelerini kaydetme ve takip etme.
 ![15](https://github.com/user-attachments/assets/a2cd8f12-9edc-40ad-9495-39f48170e002)
-![10](https://github.com/user-attachments/assets/27e9f356-990c-4987-99be-a68e9016e1d9)
+![17](https://github.com/user-attachments/assets/07e2a59e-f123-4388-a607-ad7002ed5a8e)
+
 
 
 
